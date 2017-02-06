@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <h2>{{ message }}</h2>
   `
 })
+
 export default class App {
   constructor() {
     this.message = "This is cool!";
